@@ -1,0 +1,152 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\currentProjects.css" />
+    <Content Remove="wwwroot\css\formuser.css" />
+    <Content Remove="wwwroot\img\arrow.png" />
+    <Content Remove="wwwroot\img\arrow_r.png" />
+    <Content Remove="wwwroot\img\bell.png" />
+    <Content Remove="wwwroot\img\btn-backArrow.png" />
+    <Content Remove="wwwroot\img\btn-nextArrow.png" />
+    <Content Remove="wwwroot\img\geometer.png" />
+    <Content Remove="wwwroot\img\Google.png" />
+    <Content Remove="wwwroot\img\imgLogoPartner1.png" />
+    <Content Remove="wwwroot\img\imgLogoPartner2.png" />
+    <Content Remove="wwwroot\img\imgLogoPartner3.png" />
+    <Content Remove="wwwroot\img\imgLogoPartner4.png" />
+    <Content Remove="wwwroot\img\imgLogoPartner5.png" />
+    <Content Remove="wwwroot\img\LiqPay.png" />
+    <Content Remove="wwwroot\img\mainNews1.png" />
+    <Content Remove="wwwroot\img\mainNews2.png" />
+    <Content Remove="wwwroot\img\mainNews3.png" />
+    <Content Remove="wwwroot\img\mainNews4.png" />
+    <Content Remove="wwwroot\img\menu-history.png" />
+    <Content Remove="wwwroot\img\menu-message.png" />
+    <Content Remove="wwwroot\img\menu-privacy.png" />
+    <Content Remove="wwwroot\img\menu-projects.png" />
+    <Content Remove="wwwroot\img\position.png" />
+    <Content Remove="wwwroot\img\Privet24.png" />
+    <Content Remove="wwwroot\img\profile.png" />
+    <Content Remove="wwwroot\img\save-changes.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IppDotNetSdkForQuickBooksApiV3" Version="14.6.4" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Stripe.net" Version="46.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\blog\latest-post\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\about-fund.css" />
+    <None Include="wwwroot\css\current-collection-card.css" />
+    <None Include="wwwroot\css\currentProjects.css" />
+    <None Include="wwwroot\css\donations-create.css" />
+    <None Include="wwwroot\css\donations-history.css" />
+    <None Include="wwwroot\css\FAQ.css" />
+    <None Include="wwwroot\css\formuser.css" />
+    <None Include="wwwroot\css\main.css" />
+    <None Include="wwwroot\css\news.css" />
+    <None Include="wwwroot\css\paymentPage.css" />
+    <None Include="wwwroot\css\profile-benefactor-red.css" />
+    <None Include="wwwroot\css\profile-benefactor.css" />
+    <None Include="wwwroot\css\profile-volunteer-red.css" />
+    <None Include="wwwroot\css\profile-volunteer.css" />
+    <None Include="wwwroot\css\сreate-new-collection.css" />
+    <None Include="wwwroot\img\arrow.png" />
+    <None Include="wwwroot\img\arrow_r.png" />
+    <None Include="wwwroot\img\bell.png" />
+    <None Include="wwwroot\img\btn-backArrow.jpg" />
+    <None Include="wwwroot\img\btn-backArrow.png" />
+    <None Include="wwwroot\img\btn-nextArrow.jpg" />
+    <None Include="wwwroot\img\btn-nextArrow.png" />
+    <None Include="wwwroot\img\btnExpandNotPaired.png" />
+    <None Include="wwwroot\img\btnExpandPaired.png" />
+    <None Include="wwwroot\img\currentProjects\arrowSectionPath.png" />
+    <None Include="wwwroot\img\facebook.png" />
+    <None Include="wwwroot\img\geometer.png" />
+    <None Include="wwwroot\img\Google.png" />
+    <None Include="wwwroot\img\Hospitals\1.jpg" />
+    <None Include="wwwroot\img\Hospitals\1.png" />
+    <None Include="wwwroot\img\Hospitals\2.jpg" />
+    <None Include="wwwroot\img\Hospitals\2.png" />
+    <None Include="wwwroot\img\Hospitals\3.jpg" />
+    <None Include="wwwroot\img\Hospitals\4.jpg" />
+    <None Include="wwwroot\img\Hospitals\5.jpg" />
+    <None Include="wwwroot\img\Hospitals\5.png" />
+    <None Include="wwwroot\img\Hospitals\6.jpg" />
+    <None Include="wwwroot\img\Hospitals\6.png" />
+    <None Include="wwwroot\img\imgLogoPartner1.png" />
+    <None Include="wwwroot\img\imgLogoPartner2.png" />
+    <None Include="wwwroot\img\imgLogoPartner3.png" />
+    <None Include="wwwroot\img\imgLogoPartner4.png" />
+    <None Include="wwwroot\img\imgLogoPartner5.png" />
+    <None Include="wwwroot\img\instagram.png" />
+    <None Include="wwwroot\img\LiqPay.png" />
+    <None Include="wwwroot\img\logo.png" />
+    <None Include="wwwroot\img\mainNews1.png" />
+    <None Include="wwwroot\img\mainNews2.png" />
+    <None Include="wwwroot\img\mainNews3.png" />
+    <None Include="wwwroot\img\mainNews4.png" />
+    <None Include="wwwroot\img\mainPageS1.jpg" />
+    <None Include="wwwroot\img\mainPagesImg1S2.jpg" />
+    <None Include="wwwroot\img\mainPagesImg2S2.jpg" />
+    <None Include="wwwroot\img\menu-history.png" />
+    <None Include="wwwroot\img\menu-message.png" />
+    <None Include="wwwroot\img\menu-privacy.png" />
+    <None Include="wwwroot\img\menu-projects.png" />
+    <None Include="wwwroot\img\News\1.png" />
+    <None Include="wwwroot\img\News\10.png" />
+    <None Include="wwwroot\img\News\11.png" />
+    <None Include="wwwroot\img\News\12.png" />
+    <None Include="wwwroot\img\News\2.png" />
+    <None Include="wwwroot\img\News\3.png" />
+    <None Include="wwwroot\img\News\4.png" />
+    <None Include="wwwroot\img\News\5.png" />
+    <None Include="wwwroot\img\News\6.png" />
+    <None Include="wwwroot\img\News\7.png" />
+    <None Include="wwwroot\img\News\8.png" />
+    <None Include="wwwroot\img\News\9.png" />
+    <None Include="wwwroot\img\oko.png" />
+    <None Include="wwwroot\img\Partners\1.png" />
+    <None Include="wwwroot\img\Partners\2.png" />
+    <None Include="wwwroot\img\Partners\3.png" />
+    <None Include="wwwroot\img\Partners\4.png" />
+    <None Include="wwwroot\img\Patients\21.png" />
+    <None Include="wwwroot\img\Patients\22.png" />
+    <None Include="wwwroot\img\Patients\23.png" />
+    <None Include="wwwroot\img\Patients\24.png" />
+    <None Include="wwwroot\img\Patients\25.png" />
+    <None Include="wwwroot\img\Patients\26.png" />
+    <None Include="wwwroot\img\Patients\27.png" />
+    <None Include="wwwroot\img\position.png" />
+    <None Include="wwwroot\img\Privet24.png" />
+    <None Include="wwwroot\img\profile.png" />
+    <None Include="wwwroot\img\reestr.png" />
+    <None Include="wwwroot\img\save-changes.png" />
+    <None Include="wwwroot\img\twitter.png" />
+    <None Include="wwwroot\img\Ukraine.png" />
+    <None Include="wwwroot\img\unit1.png" />
+    <None Include="wwwroot\img\unit2.png" />
+    <None Include="wwwroot\img\unit3.png" />
+    <None Include="wwwroot\img\user.png" />
+    <None Include="wwwroot\img\volonter.png" />
+    <None Include="wwwroot\js\about-fund.js" />
+    <None Include="wwwroot\js\current-collection-card.js" />
+    <None Include="wwwroot\js\user.js" />
+  </ItemGroup>
+
+</Project>
